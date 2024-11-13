@@ -41,3 +41,23 @@ form input{
     font-size: 35px !important;
 
 }
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    .calculator {
+        width: 100%;
+        padding: 10px;
+    }
+    form input {
+        width: 50px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .display input {
+        width: 100%;
+        font-size: 25px !important;
+    }
+}
